@@ -1,0 +1,747 @@
+﻿<HTML xmlns:dt="http://www.w3.org/2001/XMLSchema-instance" xmlns:d2="urn:schemas-microsoft-com:datatypes">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <STYLE>
+          
+    body {font-family:Courier New;font-size:10pt;margin-right:1.5em;background:AliceBlue}
+    .c{ }
+    .m{color:#505050}                   /* markup */
+    .b{color:red;font-weight:bold;text-decoration:none}  /* non breaking space */
+    .e{margin-left:1em;text-indent:-1em;margin-right:1em}  /* expandable */
+    .k{margin-left:1em;text-indent:-1em;margin-right:1em}  /* outer comment (non-expandable)? */
+    .at{color:Maroon}          /* attribute name */
+    .av {color:Black;}       /* attribute value */
+    .t {color:#004080}                 /* element name */
+    .tx{color:Black}   /* text content */
+    .pi{color:Purple}                      /* pi name and content */
+    .ci{color:Green}                 /* comment value */    
+    .side{background-color:#FFFACD}   /* intro div */    
+    .outputtip { display:block }
+    a { color:#004080 }
+    a:visited { color:Purple }
+    a:hover { color:Purple }
+    pre {margin:0px;display:inline}
+        </STYLE>
+  </HEAD>
+  <BODY class="st">
+    <div style="padding:5px;" class="side tx">
+          
+            Your XML document contains no xml-stylesheet processing instruction. To provide
+            an <a href="https://www.tutorialspoint.com/xslt/index.htm" target="_new">XSLT transform</a>, add the following to the top of your file and edit the href
+            attribute accordingly:
+
+            <pre><span class="m">&lt;?</span><span class="pi">xml-stylesheet</span> <span class="at">type</span><span class="m">="</span><span class="av">text/xsl</span><span class="m">" </span><span class="at">href</span><span class="m">="</span><span class="av">stylesheet.xsl</span><span class="m">" ?&gt;</span></pre>
+      <p>
+            You can also enter the XSLT file name using the above "XSLT Location:" text box, but this will not
+            persist with your XML document.
+          </p>
+      <div class="outputtip">
+            You can specify a default output file name using the following in your XML documents:
+            <pre><span class="m">&lt;?</span><span class="pi">xsl-output</span> <span class="at">default</span><span class="m">="</span><span class="av">xslt_output</span><span class="m">" ?&gt;</span></pre>
+      </div>
+    </div>
+    <div class="e">
+      <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">PKPUsers</span> 
+    <span class="at">xsi:schemaLocation</span><span class="m">="</span><span class="av">http://pkp.sfu.ca pkp-users.xsd</span><span class="m">"</span>
+  <span class="m">&gt;</span></div>
+      <div>
+        <div class="e">
+          <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">user_groups</span> 
+    <span class="at">xsi:schemaLocation</span><span class="m">="</span><span class="av">http://pkp.sfu.ca pkp-users.xsd</span><span class="m">"</span>
+  <span class="m">&gt;</span></div>
+          <div>
+            <div class="e">
+              <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">user_group</span><span class="m">&gt;</span></div>
+              <div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">role_id</span><span class="m">&gt;</span><span class="tx">16</span><span class="m">&lt;/</span><span class="t">role_id</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">context_id</span><span class="m">&gt;</span><span class="tx">1</span><span class="m">&lt;/</span><span class="t">context_id</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">is_default</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">is_default</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">show_title</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">show_title</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">permit_self_registration</span><span class="m">&gt;</span><span class="tx">false</span><span class="m">&lt;/</span><span class="t">permit_self_registration</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">permit_metadata_edit</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">permit_metadata_edit</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">name</span> 
+    <span class="at">locale</span><span class="m">="</span><span class="av">en</span><span class="m">"</span>
+  <span class="m">&gt;</span><span class="tx">Journal manager</span><span class="m">&lt;/</span><span class="t">name</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">abbrev</span> 
+    <span class="at">locale</span><span class="m">="</span><span class="av">en</span><span class="m">"</span>
+  <span class="m">&gt;</span><span class="tx">JM</span><span class="m">&lt;/</span><span class="t">abbrev</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">stage_assignments</span><span class="m">/&gt;</span></div>
+                </div>
+                <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">user_group</span><span class="m">&gt;</span></div>
+              </div>
+            </div>
+            <div class="e">
+              <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">user_group</span><span class="m">&gt;</span></div>
+              <div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">role_id</span><span class="m">&gt;</span><span class="tx">16</span><span class="m">&lt;/</span><span class="t">role_id</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">context_id</span><span class="m">&gt;</span><span class="tx">1</span><span class="m">&lt;/</span><span class="t">context_id</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">is_default</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">is_default</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">show_title</span><span class="m">&gt;</span><span class="tx">false</span><span class="m">&lt;/</span><span class="t">show_title</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">permit_self_registration</span><span class="m">&gt;</span><span class="tx">false</span><span class="m">&lt;/</span><span class="t">permit_self_registration</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">permit_metadata_edit</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">permit_metadata_edit</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">name</span> 
+    <span class="at">locale</span><span class="m">="</span><span class="av">en</span><span class="m">"</span>
+  <span class="m">&gt;</span><span class="tx">Journal editor</span><span class="m">&lt;/</span><span class="t">name</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">abbrev</span> 
+    <span class="at">locale</span><span class="m">="</span><span class="av">en</span><span class="m">"</span>
+  <span class="m">&gt;</span><span class="tx">JE</span><span class="m">&lt;/</span><span class="t">abbrev</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">stage_assignments</span><span class="m">&gt;</span><span class="tx">1:3:4:5</span><span class="m">&lt;/</span><span class="t">stage_assignments</span><span class="m">&gt;</span></div>
+                </div>
+                <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">user_group</span><span class="m">&gt;</span></div>
+              </div>
+            </div>
+            <div class="e">
+              <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">user_group</span><span class="m">&gt;</span></div>
+              <div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">role_id</span><span class="m">&gt;</span><span class="tx">16</span><span class="m">&lt;/</span><span class="t">role_id</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">context_id</span><span class="m">&gt;</span><span class="tx">1</span><span class="m">&lt;/</span><span class="t">context_id</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">is_default</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">is_default</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">show_title</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">show_title</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">permit_self_registration</span><span class="m">&gt;</span><span class="tx">false</span><span class="m">&lt;/</span><span class="t">permit_self_registration</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">permit_metadata_edit</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">permit_metadata_edit</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">name</span> 
+    <span class="at">locale</span><span class="m">="</span><span class="av">en</span><span class="m">"</span>
+  <span class="m">&gt;</span><span class="tx">Production editor</span><span class="m">&lt;/</span><span class="t">name</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">abbrev</span> 
+    <span class="at">locale</span><span class="m">="</span><span class="av">en</span><span class="m">"</span>
+  <span class="m">&gt;</span><span class="tx">ProdE</span><span class="m">&lt;/</span><span class="t">abbrev</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">stage_assignments</span><span class="m">&gt;</span><span class="tx">4:5</span><span class="m">&lt;/</span><span class="t">stage_assignments</span><span class="m">&gt;</span></div>
+                </div>
+                <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">user_group</span><span class="m">&gt;</span></div>
+              </div>
+            </div>
+            <div class="e">
+              <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">user_group</span><span class="m">&gt;</span></div>
+              <div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">role_id</span><span class="m">&gt;</span><span class="tx">17</span><span class="m">&lt;/</span><span class="t">role_id</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">context_id</span><span class="m">&gt;</span><span class="tx">1</span><span class="m">&lt;/</span><span class="t">context_id</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">is_default</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">is_default</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">show_title</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">show_title</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">permit_self_registration</span><span class="m">&gt;</span><span class="tx">false</span><span class="m">&lt;/</span><span class="t">permit_self_registration</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">permit_metadata_edit</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">permit_metadata_edit</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">name</span> 
+    <span class="at">locale</span><span class="m">="</span><span class="av">en</span><span class="m">"</span>
+  <span class="m">&gt;</span><span class="tx">Section editor</span><span class="m">&lt;/</span><span class="t">name</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">abbrev</span> 
+    <span class="at">locale</span><span class="m">="</span><span class="av">en</span><span class="m">"</span>
+  <span class="m">&gt;</span><span class="tx">SecE</span><span class="m">&lt;/</span><span class="t">abbrev</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">stage_assignments</span><span class="m">&gt;</span><span class="tx">1:3:4:5</span><span class="m">&lt;/</span><span class="t">stage_assignments</span><span class="m">&gt;</span></div>
+                </div>
+                <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">user_group</span><span class="m">&gt;</span></div>
+              </div>
+            </div>
+            <div class="e">
+              <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">user_group</span><span class="m">&gt;</span></div>
+              <div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">role_id</span><span class="m">&gt;</span><span class="tx">17</span><span class="m">&lt;/</span><span class="t">role_id</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">context_id</span><span class="m">&gt;</span><span class="tx">1</span><span class="m">&lt;/</span><span class="t">context_id</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">is_default</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">is_default</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">show_title</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">show_title</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">permit_self_registration</span><span class="m">&gt;</span><span class="tx">false</span><span class="m">&lt;/</span><span class="t">permit_self_registration</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">permit_metadata_edit</span><span class="m">&gt;</span><span class="tx">false</span><span class="m">&lt;/</span><span class="t">permit_metadata_edit</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">name</span> 
+    <span class="at">locale</span><span class="m">="</span><span class="av">en</span><span class="m">"</span>
+  <span class="m">&gt;</span><span class="tx">Guest editor</span><span class="m">&lt;/</span><span class="t">name</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">abbrev</span> 
+    <span class="at">locale</span><span class="m">="</span><span class="av">en</span><span class="m">"</span>
+  <span class="m">&gt;</span><span class="tx">GE</span><span class="m">&lt;/</span><span class="t">abbrev</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">stage_assignments</span><span class="m">&gt;</span><span class="tx">1:3:4:5</span><span class="m">&lt;/</span><span class="t">stage_assignments</span><span class="m">&gt;</span></div>
+                </div>
+                <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">user_group</span><span class="m">&gt;</span></div>
+              </div>
+            </div>
+            <div class="e">
+              <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">user_group</span><span class="m">&gt;</span></div>
+              <div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">role_id</span><span class="m">&gt;</span><span class="tx">4097</span><span class="m">&lt;/</span><span class="t">role_id</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">context_id</span><span class="m">&gt;</span><span class="tx">1</span><span class="m">&lt;/</span><span class="t">context_id</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">is_default</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">is_default</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">show_title</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">show_title</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">permit_self_registration</span><span class="m">&gt;</span><span class="tx">false</span><span class="m">&lt;/</span><span class="t">permit_self_registration</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">permit_metadata_edit</span><span class="m">&gt;</span><span class="tx">false</span><span class="m">&lt;/</span><span class="t">permit_metadata_edit</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">name</span> 
+    <span class="at">locale</span><span class="m">="</span><span class="av">en</span><span class="m">"</span>
+  <span class="m">&gt;</span><span class="tx">Copyeditor</span><span class="m">&lt;/</span><span class="t">name</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">abbrev</span> 
+    <span class="at">locale</span><span class="m">="</span><span class="av">en</span><span class="m">"</span>
+  <span class="m">&gt;</span><span class="tx">CE</span><span class="m">&lt;/</span><span class="t">abbrev</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">stage_assignments</span><span class="m">&gt;</span><span class="tx">4</span><span class="m">&lt;/</span><span class="t">stage_assignments</span><span class="m">&gt;</span></div>
+                </div>
+                <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">user_group</span><span class="m">&gt;</span></div>
+              </div>
+            </div>
+            <div class="e">
+              <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">user_group</span><span class="m">&gt;</span></div>
+              <div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">role_id</span><span class="m">&gt;</span><span class="tx">4097</span><span class="m">&lt;/</span><span class="t">role_id</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">context_id</span><span class="m">&gt;</span><span class="tx">1</span><span class="m">&lt;/</span><span class="t">context_id</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">is_default</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">is_default</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">show_title</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">show_title</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">permit_self_registration</span><span class="m">&gt;</span><span class="tx">false</span><span class="m">&lt;/</span><span class="t">permit_self_registration</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">permit_metadata_edit</span><span class="m">&gt;</span><span class="tx">false</span><span class="m">&lt;/</span><span class="t">permit_metadata_edit</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">name</span> 
+    <span class="at">locale</span><span class="m">="</span><span class="av">en</span><span class="m">"</span>
+  <span class="m">&gt;</span><span class="tx">Designer</span><span class="m">&lt;/</span><span class="t">name</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">abbrev</span> 
+    <span class="at">locale</span><span class="m">="</span><span class="av">en</span><span class="m">"</span>
+  <span class="m">&gt;</span><span class="tx">Design</span><span class="m">&lt;/</span><span class="t">abbrev</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">stage_assignments</span><span class="m">&gt;</span><span class="tx">5</span><span class="m">&lt;/</span><span class="t">stage_assignments</span><span class="m">&gt;</span></div>
+                </div>
+                <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">user_group</span><span class="m">&gt;</span></div>
+              </div>
+            </div>
+            <div class="e">
+              <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">user_group</span><span class="m">&gt;</span></div>
+              <div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">role_id</span><span class="m">&gt;</span><span class="tx">4097</span><span class="m">&lt;/</span><span class="t">role_id</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">context_id</span><span class="m">&gt;</span><span class="tx">1</span><span class="m">&lt;/</span><span class="t">context_id</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">is_default</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">is_default</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">show_title</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">show_title</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">permit_self_registration</span><span class="m">&gt;</span><span class="tx">false</span><span class="m">&lt;/</span><span class="t">permit_self_registration</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">permit_metadata_edit</span><span class="m">&gt;</span><span class="tx">false</span><span class="m">&lt;/</span><span class="t">permit_metadata_edit</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">name</span> 
+    <span class="at">locale</span><span class="m">="</span><span class="av">en</span><span class="m">"</span>
+  <span class="m">&gt;</span><span class="tx">Funding coordinator</span><span class="m">&lt;/</span><span class="t">name</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">abbrev</span> 
+    <span class="at">locale</span><span class="m">="</span><span class="av">en</span><span class="m">"</span>
+  <span class="m">&gt;</span><span class="tx">FC</span><span class="m">&lt;/</span><span class="t">abbrev</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">stage_assignments</span><span class="m">&gt;</span><span class="tx">1:3</span><span class="m">&lt;/</span><span class="t">stage_assignments</span><span class="m">&gt;</span></div>
+                </div>
+                <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">user_group</span><span class="m">&gt;</span></div>
+              </div>
+            </div>
+            <div class="e">
+              <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">user_group</span><span class="m">&gt;</span></div>
+              <div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">role_id</span><span class="m">&gt;</span><span class="tx">4097</span><span class="m">&lt;/</span><span class="t">role_id</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">context_id</span><span class="m">&gt;</span><span class="tx">1</span><span class="m">&lt;/</span><span class="t">context_id</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">is_default</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">is_default</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">show_title</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">show_title</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">permit_self_registration</span><span class="m">&gt;</span><span class="tx">false</span><span class="m">&lt;/</span><span class="t">permit_self_registration</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">permit_metadata_edit</span><span class="m">&gt;</span><span class="tx">false</span><span class="m">&lt;/</span><span class="t">permit_metadata_edit</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">name</span> 
+    <span class="at">locale</span><span class="m">="</span><span class="av">en</span><span class="m">"</span>
+  <span class="m">&gt;</span><span class="tx">Indexer</span><span class="m">&lt;/</span><span class="t">name</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">abbrev</span> 
+    <span class="at">locale</span><span class="m">="</span><span class="av">en</span><span class="m">"</span>
+  <span class="m">&gt;</span><span class="tx">IND</span><span class="m">&lt;/</span><span class="t">abbrev</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">stage_assignments</span><span class="m">&gt;</span><span class="tx">5</span><span class="m">&lt;/</span><span class="t">stage_assignments</span><span class="m">&gt;</span></div>
+                </div>
+                <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">user_group</span><span class="m">&gt;</span></div>
+              </div>
+            </div>
+            <div class="e">
+              <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">user_group</span><span class="m">&gt;</span></div>
+              <div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">role_id</span><span class="m">&gt;</span><span class="tx">4097</span><span class="m">&lt;/</span><span class="t">role_id</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">context_id</span><span class="m">&gt;</span><span class="tx">1</span><span class="m">&lt;/</span><span class="t">context_id</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">is_default</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">is_default</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">show_title</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">show_title</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">permit_self_registration</span><span class="m">&gt;</span><span class="tx">false</span><span class="m">&lt;/</span><span class="t">permit_self_registration</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">permit_metadata_edit</span><span class="m">&gt;</span><span class="tx">false</span><span class="m">&lt;/</span><span class="t">permit_metadata_edit</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">name</span> 
+    <span class="at">locale</span><span class="m">="</span><span class="av">en</span><span class="m">"</span>
+  <span class="m">&gt;</span><span class="tx">Layout Editor</span><span class="m">&lt;/</span><span class="t">name</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">abbrev</span> 
+    <span class="at">locale</span><span class="m">="</span><span class="av">en</span><span class="m">"</span>
+  <span class="m">&gt;</span><span class="tx">LE</span><span class="m">&lt;/</span><span class="t">abbrev</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">stage_assignments</span><span class="m">&gt;</span><span class="tx">5</span><span class="m">&lt;/</span><span class="t">stage_assignments</span><span class="m">&gt;</span></div>
+                </div>
+                <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">user_group</span><span class="m">&gt;</span></div>
+              </div>
+            </div>
+            <div class="e">
+              <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">user_group</span><span class="m">&gt;</span></div>
+              <div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">role_id</span><span class="m">&gt;</span><span class="tx">4097</span><span class="m">&lt;/</span><span class="t">role_id</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">context_id</span><span class="m">&gt;</span><span class="tx">1</span><span class="m">&lt;/</span><span class="t">context_id</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">is_default</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">is_default</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">show_title</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">show_title</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">permit_self_registration</span><span class="m">&gt;</span><span class="tx">false</span><span class="m">&lt;/</span><span class="t">permit_self_registration</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">permit_metadata_edit</span><span class="m">&gt;</span><span class="tx">false</span><span class="m">&lt;/</span><span class="t">permit_metadata_edit</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">name</span> 
+    <span class="at">locale</span><span class="m">="</span><span class="av">en</span><span class="m">"</span>
+  <span class="m">&gt;</span><span class="tx">Marketing and sales coordinator</span><span class="m">&lt;/</span><span class="t">name</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">abbrev</span> 
+    <span class="at">locale</span><span class="m">="</span><span class="av">en</span><span class="m">"</span>
+  <span class="m">&gt;</span><span class="tx">MS</span><span class="m">&lt;/</span><span class="t">abbrev</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">stage_assignments</span><span class="m">&gt;</span><span class="tx">4</span><span class="m">&lt;/</span><span class="t">stage_assignments</span><span class="m">&gt;</span></div>
+                </div>
+                <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">user_group</span><span class="m">&gt;</span></div>
+              </div>
+            </div>
+            <div class="e">
+              <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">user_group</span><span class="m">&gt;</span></div>
+              <div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">role_id</span><span class="m">&gt;</span><span class="tx">4097</span><span class="m">&lt;/</span><span class="t">role_id</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">context_id</span><span class="m">&gt;</span><span class="tx">1</span><span class="m">&lt;/</span><span class="t">context_id</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">is_default</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">is_default</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">show_title</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">show_title</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">permit_self_registration</span><span class="m">&gt;</span><span class="tx">false</span><span class="m">&lt;/</span><span class="t">permit_self_registration</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">permit_metadata_edit</span><span class="m">&gt;</span><span class="tx">false</span><span class="m">&lt;/</span><span class="t">permit_metadata_edit</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">name</span> 
+    <span class="at">locale</span><span class="m">="</span><span class="av">en</span><span class="m">"</span>
+  <span class="m">&gt;</span><span class="tx">Proofreader</span><span class="m">&lt;/</span><span class="t">name</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">abbrev</span> 
+    <span class="at">locale</span><span class="m">="</span><span class="av">en</span><span class="m">"</span>
+  <span class="m">&gt;</span><span class="tx">PR</span><span class="m">&lt;/</span><span class="t">abbrev</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">stage_assignments</span><span class="m">&gt;</span><span class="tx">5</span><span class="m">&lt;/</span><span class="t">stage_assignments</span><span class="m">&gt;</span></div>
+                </div>
+                <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">user_group</span><span class="m">&gt;</span></div>
+              </div>
+            </div>
+            <div class="e">
+              <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">user_group</span><span class="m">&gt;</span></div>
+              <div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">role_id</span><span class="m">&gt;</span><span class="tx">65536</span><span class="m">&lt;/</span><span class="t">role_id</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">context_id</span><span class="m">&gt;</span><span class="tx">1</span><span class="m">&lt;/</span><span class="t">context_id</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">is_default</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">is_default</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">show_title</span><span class="m">&gt;</span><span class="tx">false</span><span class="m">&lt;/</span><span class="t">show_title</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">permit_self_registration</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">permit_self_registration</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">permit_metadata_edit</span><span class="m">&gt;</span><span class="tx">false</span><span class="m">&lt;/</span><span class="t">permit_metadata_edit</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">name</span> 
+    <span class="at">locale</span><span class="m">="</span><span class="av">en</span><span class="m">"</span>
+  <span class="m">&gt;</span><span class="tx">Author</span><span class="m">&lt;/</span><span class="t">name</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">abbrev</span> 
+    <span class="at">locale</span><span class="m">="</span><span class="av">en</span><span class="m">"</span>
+  <span class="m">&gt;</span><span class="tx">AU</span><span class="m">&lt;/</span><span class="t">abbrev</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">stage_assignments</span><span class="m">&gt;</span><span class="tx">1:3:4:5</span><span class="m">&lt;/</span><span class="t">stage_assignments</span><span class="m">&gt;</span></div>
+                </div>
+                <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">user_group</span><span class="m">&gt;</span></div>
+              </div>
+            </div>
+            <div class="e">
+              <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">user_group</span><span class="m">&gt;</span></div>
+              <div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">role_id</span><span class="m">&gt;</span><span class="tx">65536</span><span class="m">&lt;/</span><span class="t">role_id</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">context_id</span><span class="m">&gt;</span><span class="tx">1</span><span class="m">&lt;/</span><span class="t">context_id</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">is_default</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">is_default</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">show_title</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">show_title</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">permit_self_registration</span><span class="m">&gt;</span><span class="tx">false</span><span class="m">&lt;/</span><span class="t">permit_self_registration</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">permit_metadata_edit</span><span class="m">&gt;</span><span class="tx">false</span><span class="m">&lt;/</span><span class="t">permit_metadata_edit</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">name</span> 
+    <span class="at">locale</span><span class="m">="</span><span class="av">en</span><span class="m">"</span>
+  <span class="m">&gt;</span><span class="tx">Translator</span><span class="m">&lt;/</span><span class="t">name</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">abbrev</span> 
+    <span class="at">locale</span><span class="m">="</span><span class="av">en</span><span class="m">"</span>
+  <span class="m">&gt;</span><span class="tx">Trans</span><span class="m">&lt;/</span><span class="t">abbrev</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">stage_assignments</span><span class="m">&gt;</span><span class="tx">1:3:4:5</span><span class="m">&lt;/</span><span class="t">stage_assignments</span><span class="m">&gt;</span></div>
+                </div>
+                <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">user_group</span><span class="m">&gt;</span></div>
+              </div>
+            </div>
+            <div class="e">
+              <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">user_group</span><span class="m">&gt;</span></div>
+              <div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">role_id</span><span class="m">&gt;</span><span class="tx">4096</span><span class="m">&lt;/</span><span class="t">role_id</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">context_id</span><span class="m">&gt;</span><span class="tx">1</span><span class="m">&lt;/</span><span class="t">context_id</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">is_default</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">is_default</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">show_title</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">show_title</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">permit_self_registration</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">permit_self_registration</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">permit_metadata_edit</span><span class="m">&gt;</span><span class="tx">false</span><span class="m">&lt;/</span><span class="t">permit_metadata_edit</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">name</span> 
+    <span class="at">locale</span><span class="m">="</span><span class="av">en</span><span class="m">"</span>
+  <span class="m">&gt;</span><span class="tx">Reviewer</span><span class="m">&lt;/</span><span class="t">name</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">abbrev</span> 
+    <span class="at">locale</span><span class="m">="</span><span class="av">en</span><span class="m">"</span>
+  <span class="m">&gt;</span><span class="tx">R</span><span class="m">&lt;/</span><span class="t">abbrev</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">stage_assignments</span><span class="m">&gt;</span><span class="tx">3</span><span class="m">&lt;/</span><span class="t">stage_assignments</span><span class="m">&gt;</span></div>
+                </div>
+                <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">user_group</span><span class="m">&gt;</span></div>
+              </div>
+            </div>
+            <div class="e">
+              <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">user_group</span><span class="m">&gt;</span></div>
+              <div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">role_id</span><span class="m">&gt;</span><span class="tx">1048576</span><span class="m">&lt;/</span><span class="t">role_id</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">context_id</span><span class="m">&gt;</span><span class="tx">1</span><span class="m">&lt;/</span><span class="t">context_id</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">is_default</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">is_default</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">show_title</span><span class="m">&gt;</span><span class="tx">false</span><span class="m">&lt;/</span><span class="t">show_title</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">permit_self_registration</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">permit_self_registration</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">permit_metadata_edit</span><span class="m">&gt;</span><span class="tx">false</span><span class="m">&lt;/</span><span class="t">permit_metadata_edit</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">name</span> 
+    <span class="at">locale</span><span class="m">="</span><span class="av">en</span><span class="m">"</span>
+  <span class="m">&gt;</span><span class="tx">Reader</span><span class="m">&lt;/</span><span class="t">name</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">abbrev</span> 
+    <span class="at">locale</span><span class="m">="</span><span class="av">en</span><span class="m">"</span>
+  <span class="m">&gt;</span><span class="tx">Read</span><span class="m">&lt;/</span><span class="t">abbrev</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">stage_assignments</span><span class="m">/&gt;</span></div>
+                </div>
+                <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">user_group</span><span class="m">&gt;</span></div>
+              </div>
+            </div>
+            <div class="e">
+              <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">user_group</span><span class="m">&gt;</span></div>
+              <div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">role_id</span><span class="m">&gt;</span><span class="tx">2097152</span><span class="m">&lt;/</span><span class="t">role_id</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">context_id</span><span class="m">&gt;</span><span class="tx">1</span><span class="m">&lt;/</span><span class="t">context_id</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">is_default</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">is_default</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">show_title</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">show_title</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">permit_self_registration</span><span class="m">&gt;</span><span class="tx">false</span><span class="m">&lt;/</span><span class="t">permit_self_registration</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">permit_metadata_edit</span><span class="m">&gt;</span><span class="tx">false</span><span class="m">&lt;/</span><span class="t">permit_metadata_edit</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">name</span> 
+    <span class="at">locale</span><span class="m">="</span><span class="av">en</span><span class="m">"</span>
+  <span class="m">&gt;</span><span class="tx">Subscription Manager</span><span class="m">&lt;/</span><span class="t">name</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">abbrev</span> 
+    <span class="at">locale</span><span class="m">="</span><span class="av">en</span><span class="m">"</span>
+  <span class="m">&gt;</span><span class="tx">SubM</span><span class="m">&lt;/</span><span class="t">abbrev</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">stage_assignments</span><span class="m">/&gt;</span></div>
+                </div>
+                <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">user_group</span><span class="m">&gt;</span></div>
+              </div>
+            </div>
+            <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">user_groups</span><span class="m">&gt;</span></div>
+          </div>
+        </div>
+        <div class="e">
+          <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">users</span><span class="m">&gt;</span></div>
+          <div>
+            <div class="e">
+              <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">user</span><span class="m">&gt;</span></div>
+              <div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">givenname</span> 
+    <span class="at">locale</span><span class="m">="</span><span class="av">en</span><span class="m">"</span>
+  <span class="m">&gt;</span><span class="tx">Test111</span><span class="m">&lt;/</span><span class="t">givenname</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">familyname</span> 
+    <span class="at">locale</span><span class="m">="</span><span class="av">en</span><span class="m">"</span>
+  <span class="m">&gt;</span><span class="tx">Reviewer</span><span class="m">&lt;/</span><span class="t">familyname</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">country</span><span class="m">&gt;</span><span class="tx">Canada</span><span class="m">&lt;/</span><span class="t">country</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">email</span><span class="m">&gt;</span><span class="tx">aaa@gmail.com</span><span class="m">&lt;/</span><span class="t">email</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">username</span><span class="m">&gt;</span><span class="tx">1111</span><span class="m">&lt;/</span><span class="t">username</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">password</span> 
+    <span class="at">is_disabled</span><span class="m">="</span><span class="av">false</span><span class="m">"</span>
+   
+    <span class="at">must_change</span><span class="m">="</span><span class="av">false</span><span class="m">"</span>
+   
+    <span class="at">encryption</span><span class="m">="</span><span class="av">sha1</span><span class="m">"</span>
+  <span class="m">&gt;</span></div>
+                  <div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">value</span><span class="m">&gt;</span><span class="tx">$2y$10$pH.XVaP9bUXemYVmM66cT.FaULY6ghxmIwMVaF8qBvXFB3o76e9Qa</span><span class="m">&lt;/</span><span class="t">value</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">password</span><span class="m">&gt;</span></div>
+                  </div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">date_registered</span><span class="m">&gt;</span><span class="tx">2024-02-04 04:47:23</span><span class="m">&lt;/</span><span class="t">date_registered</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">date_last_login</span><span class="m">&gt;</span><span class="tx">2024-02-03 05:19:55</span><span class="m">&lt;/</span><span class="t">date_last_login</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">inline_help</span><span class="m">&gt;</span><span class="tx">true</span><span class="m">&lt;/</span><span class="t">inline_help</span><span class="m">&gt;</span></div>
+                </div>
+                <div class="e">
+                  <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">user_group_ref</span><span class="m">&gt;</span><span class="tx">Reviewer</span><span class="m">&lt;/</span><span class="t">user_group_ref</span><span class="m">&gt;</span></div>
+                </div>
+                <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">user</span><span class="m">&gt;</span></div>
+              </div>
+            </div>
+            <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">users</span><span class="m">&gt;</span></div>
+          </div>
+        </div>
+        <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">PKPUsers</span><span class="m">&gt;</span></div>
+      </div>
+    </div>
+  </BODY>
+</HTML>
